@@ -17,12 +17,13 @@
   </a>
 </p>
 
+<!--
 <div align="center">
   <sub>Creado por
   <a href="https://twitter.com/imarranz">imarranz</a> and
   <a href="https://github.com/imarranz/">imarranz</a>
 </div>
-
+-->
 <br>
 
 ****
