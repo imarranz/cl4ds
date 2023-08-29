@@ -31,16 +31,15 @@
 
 ## Introducción
 
-
 <img align="left" width="225" height="225" src="https://images-na.ssl-images-amazon.com/images/I/91m1qz7cHqL._AC_UL600_SR600,600_.jpg"> Este libro, _Data Science at the Command Line_, me ha gustado siempre por su enfoque. No trata sobre metodologías en Data Science ni conceptos estadísticos profundos pero da herramientas, consejos y ejemplos concretos para llevar a cabo tareas fundamentales de manera eficiente utilizando la línea de comandos. Es un libro práctico que se enfoca en la implementación efectiva, lo que lo convierte en un recurso valioso para aquellos que buscan mejorar sus habilidades prácticas en el ámbito de Data Science.
 
-Este repositorio es un espacio de aprendizaje dedicado a la intersección entre Data Science y el uso eficiente de programas mediante línea de comandos.
+Este libro me ha ayudado mucho y es el que ha servido de inspiración para iniciar este repositorio que tiene como finalidad ser un espacio de aprendizaje dedicado a la intersección entre Data Science y el uso eficiente de programas mediante línea de comandos.
 
 La Ciencia de Datos ha transformado la manera en que abordamos la información y extraemos conocimientos significativos de los datos. A través de análisis, visualizaciones y modelado, hemos obtenido una comprensión más profunda del mundo que nos rodea. En este contexto, me gustaría que CL4DS sea un recurso interesante para aquellos que desean avanzar en este campo, aprovechando al máximo las capacidades de la línea de comandos. En este repositorio, podréis encontraros una amplia gama de manuales, recursos y materiales. Estos recursos están diseñados para la aplicación de conceptos y técnicas de Ciencia de Datos mediante la línea de comandos.
 
 Este repositorio está destinado a la interacción y el crecimiento colaborativo. Sois libres de explorar, cuestionar y compartir vuestros conocimientos.
 
-Mi finalidad es generar manuales de awk, sed, nbconvert, csvkit, ...
+Mi finalidad es generar manuales de `awk`, `sed`, `nbconvert`, `csvkit`, ... con explicaciones sencillas, recursos útiles y muchos ejemplos.
 
 ## Explorando el Repositorio CL4DS: Manuales Detallados para Herramientas de Data Science
 
@@ -56,8 +55,8 @@ AWK es un lenguaje de programación versátil diseñado para el procesamiento y 
 
 En este manual, exploraremos los fundamentos de AWK, desde los conceptos básicos de su estructura hasta su aplicación en situaciones del mundo real. Aprenderemos a utilizar patrones y acciones para filtrar y transformar datos, así como a crear scripts más avanzados para automatizar tareas repetitivas. Si deseas profundizar en el procesamiento de texto y datos tabulares mediante AWK, estás en el lugar correcto.
 
-Para obtener más información sobre AWK, puedes visitar el [proyecto oficial de AWK en GitHub](https://github.com/onetrueawk/awk).
-
+> [!NOTE]
+> Para obtener más información sobre AWK, puedes visitar el [proyecto oficial de AWK en GitHub](https://github.com/onetrueawk/awk).
 
 #### Esquema para el Manual de AWK:
 
@@ -100,14 +99,14 @@ Para obtener más información sobre AWK, puedes visitar el [proyecto oficial de
    - Estilo de codificación y legibilidad.
    - Recursos adicionales para aprender AWK.
 
-
 ### Introducción a csvkit
 
 csvkit es una suite de herramientas diseñada específicamente para trabajar con archivos CSV (valores separados por comas) de manera eficiente. Manipular datos en formato CSV puede ser complicado, especialmente cuando se trata de limpiar, filtrar y transformar grandes conjuntos de datos. Csvkit simplifica este proceso al proporcionar un conjunto de comandos de línea de comandos que permiten realizar tareas comunes en archivos CSV de manera sencilla y efectiva.
 
 En este manual, exploraremos las capacidades de csvkit para realizar operaciones como la conversión entre formatos CSV y otros formatos de datos, la unión de archivos CSV, la selección y filtrado de columnas, y mucho más. Aprenderemos cómo aprovechar al máximo estas herramientas para agilizar el flujo de trabajo con datos tabulares.
 
-Si deseas obtener más información sobre csvkit, puedes consultar el [proyecto oficial de csvkit en GitHub](https://github.com/wireservice/csvkit) o leer la [documentación oficial de csvkit](https://csvkit.readthedocs.io/en/latest/)
+> [!NOTE]
+> Si deseas obtener más información sobre csvkit, puedes consultar el [proyecto oficial de csvkit en GitHub](https://github.com/wireservice/csvkit) o leer la [documentación oficial de csvkit](https://csvkit.readthedocs.io/en/latest/)
 
 #### Esquema para el Manual de csvkit:
 
@@ -166,6 +165,7 @@ Iré añadiendo recursos que haya ido encontrando mientras desarrollo los manual
   * [Introducción a AWK | pdf](https://www.um.es/innova/OCW/informatica-para-universitarios/ipu_docs/la_shell/awk.pdf)
   * [Uso del comando AWK en Linux y UNIX con ejemplos](https://geekland.eu/uso-del-comando-awk-en-linux-y-unix-con-ejemplos/)
   * [Process Multiple Input Files Using Awk](https://www.baeldung.com/linux/awk-multiple-input-files)
+  * [Uso del comando AWK en Linux y UNIX con ejemplos](https://geekland.eu/uso-del-comando-awk-en-linux-y-unix-con-ejemplos/)
 
 ### csvkit
 
@@ -173,9 +173,11 @@ Iré añadiendo recursos que haya ido encontrando mientras desarrollo los manual
 
 ## Contribución
 
-Si encuentras algo que no tiene sentido o que no parece correcto, puedes realizar una solicitud de extracción y agregar explicaciones válidas y bien razonadas sobre sus cambios o comentarios.
+> [!IMPORTANT]
+> Si encuentras algo que no tenga sentido o que no parezca correcto, puedes realizar una solicitud de extracción (pull request) y agregando explicaciones válidas y bien razonadas sobre los cambios o comentarios.
 
 Algunas reglas simples que me gustaría mantener para este proyecto:
 
-  - Los cambios deben ser interesantes y claros
+  - Los cambios deben ser interesantes
+  - Los cambios deben ser claros
   - Los cambios deben ser útiles
