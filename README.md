@@ -172,7 +172,7 @@ Iré añadiendo recursos que haya ido encontrando mientras desarrollo los manual
 
 Si encuentras algo que no tiene sentido o que no parece correcto, puedes realizar una solicitud de extracción y agregar explicaciones válidas y bien razonadas sobre sus cambios o comentarios.
 
-Algunas reglas simples para este proyecto:
+Algunas reglas simples que me gustaría mantener para este proyecto:
 
   - Los cambios deben ser interesantes y claros
   - Los cambios deben ser útiles
