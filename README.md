@@ -31,7 +31,10 @@
 
 ## Introducción
 
-Este repositorio es un espacio de aprendizaje dedicado a la intersección entre la Ciencia de Datos y el uso eficiente de programas mediante línea de comandos.
+
+<img align="left" width="225" height="135" src="https://images-na.ssl-images-amazon.com/images/I/91m1qz7cHqL._AC_UL600_SR600,600_.jpg"> Este libro, _Data Science at the Command Line_, me gusta por su enfoque. No trata sobre metodologías en Data Science ni conceptos estadísticos profundos pero da herramientas, consejos y ejemplos concretos para llevar a cabo tareas fundamentales de manera eficiente utilizando la línea de comandos. Es un libro práctico que se enfoca en la implementación efectiva, lo que lo convierte en un recurso valioso para aquellos que buscan mejorar sus habilidades prácticas en el ámbito de Data Science.
+
+Este repositorio es un espacio de aprendizaje dedicado a la intersección entre Data Science y el uso eficiente de programas mediante línea de comandos.
 
 La Ciencia de Datos ha transformado la manera en que abordamos la información y extraemos conocimientos significativos de los datos. A través de análisis, visualizaciones y modelado, hemos obtenido una comprensión más profunda del mundo que nos rodea. En este contexto, me gustaría que CL4DS sea un recurso interesante para aquellos que desean avanzar en este campo, aprovechando al máximo las capacidades de la línea de comandos. En este repositorio, podréis encontraros una amplia gama de manuales, recursos y materiales. Estos recursos están diseñados para la aplicación de conceptos y técnicas de Ciencia de Datos mediante la línea de comandos.
 
