@@ -156,13 +156,17 @@ Si deseas obtener más información sobre csvkit, puedes consultar el [proyecto 
 
 Iré añadiendo recursos que haya ido encontrando mientras desarrollo los manuales que me parezcan interesantes.
 
-[Filtro: awk, grep, sed y cut](https://atareao.es/tutorial/terminal/filtros-awk-grep-sed-y-cut/)
-[Curso avanzado de programación AWK y Bash para bioinformática y biocómputo en sistemas GNU/Linux](https://vinuesa.github.io/intro2linux/index.html)
-[Introducción a AWK | pdf](https://www.um.es/innova/OCW/informatica-para-universitarios/ipu_docs/la_shell/awk.pdf)
-[Uso del comando AWK en Linux y UNIX con ejemplos](https://geekland.eu/uso-del-comando-awk-en-linux-y-unix-con-ejemplos/)
-[Process Multiple Input Files Using Awk](https://www.baeldung.com/linux/awk-multiple-input-files)
+### AWK
 
-[csvkit, a command-line tool for reporters](https://github.com/utdata/csvkit-nicar)
+  * [Filtro: awk, grep, sed y cut](https://atareao.es/tutorial/terminal/filtros-awk-grep-sed-y-cut/)
+  * [Curso avanzado de programación AWK y Bash para bioinformática y biocómputo en sistemas GNU/Linux](https://vinuesa.github.io/intro2linux/index.html)
+  * [Introducción a AWK | pdf](https://www.um.es/innova/OCW/informatica-para-universitarios/ipu_docs/la_shell/awk.pdf)
+  * [Uso del comando AWK en Linux y UNIX con ejemplos](https://geekland.eu/uso-del-comando-awk-en-linux-y-unix-con-ejemplos/)
+  * [Process Multiple Input Files Using Awk](https://www.baeldung.com/linux/awk-multiple-input-files)
+
+### csvkit
+
+  * [csvkit, a command-line tool for reporters](https://github.com/utdata/csvkit-nicar)
 
 ## Contribución
 
