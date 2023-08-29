@@ -32,7 +32,7 @@
 ## Introducción
 
 
-<img align="left" width="225" height="135" src="https://images-na.ssl-images-amazon.com/images/I/91m1qz7cHqL._AC_UL600_SR600,600_.jpg"> Este libro, _Data Science at the Command Line_, me gusta por su enfoque. No trata sobre metodologías en Data Science ni conceptos estadísticos profundos pero da herramientas, consejos y ejemplos concretos para llevar a cabo tareas fundamentales de manera eficiente utilizando la línea de comandos. Es un libro práctico que se enfoca en la implementación efectiva, lo que lo convierte en un recurso valioso para aquellos que buscan mejorar sus habilidades prácticas en el ámbito de Data Science.
+<img align="left" width="225" height="175" src="https://images-na.ssl-images-amazon.com/images/I/91m1qz7cHqL._AC_UL600_SR600,600_.jpg"> Este libro, _Data Science at the Command Line_, me ha gustado siempre por su enfoque. No trata sobre metodologías en Data Science ni conceptos estadísticos profundos pero da herramientas, consejos y ejemplos concretos para llevar a cabo tareas fundamentales de manera eficiente utilizando la línea de comandos. Es un libro práctico que se enfoca en la implementación efectiva, lo que lo convierte en un recurso valioso para aquellos que buscan mejorar sus habilidades prácticas en el ámbito de Data Science.
 
 Este repositorio es un espacio de aprendizaje dedicado a la intersección entre Data Science y el uso eficiente de programas mediante línea de comandos.
 
