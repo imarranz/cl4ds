@@ -1,4 +1,4 @@
-<h4 align="center">Una colección de listas, manuales, trucos, blogs, software y herramientas CLI y más.</h4>
+<h3 align="center">Una colección de listas, manuales, trucos, blogs, software y herramientas CLI y más.</h3>
 
 <br>
 
@@ -24,7 +24,6 @@
   <a href="https://github.com/imarranz/">imarranz</a>
 </div>
 -->
-<br>
 
 ****
 
