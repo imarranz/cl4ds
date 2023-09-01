@@ -27,6 +27,10 @@
 
 ****
 
+<!--
+https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
+-->
+
 # Command Line for Data Science (CL4DS)
 
 ## Introducción
@@ -178,6 +182,8 @@ Iré añadiendo recursos que haya ido encontrando mientras desarrollo los manual
 
 Algunas reglas simples que me gustaría mantener para este proyecto:
 
+  - Los cambios deben ser útiles
   - Los cambios deben ser interesantes
   - Los cambios deben ser claros
-  - Los cambios deben ser útiles
+
+También se puede proponer crear nuevos manuales de otras herramientas.
