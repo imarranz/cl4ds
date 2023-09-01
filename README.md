@@ -1,4 +1,4 @@
-<h3 align="center">Una colección de listas, manuales, trucos, blogs, software y herramientas CLI y más.</h3>
+<h3 align="center">Una colección de listas, manuales, recursos, webs, software y herramientas CLI y más.</h3>
 
 <br>
 
@@ -35,7 +35,7 @@ https://docs.github.com/es/get-started/writing-on-github/getting-started-with-wr
 
 ## Introducción
 
-<img align="left" width="225" height="225" src="https://images-na.ssl-images-amazon.com/images/I/91m1qz7cHqL._AC_UL600_SR600,600_.jpg"> Este libro, _Data Science at the Command Line_, me ha gustado siempre por su enfoque. No trata sobre metodologías en Data Science ni conceptos estadísticos profundos pero da herramientas, consejos y ejemplos concretos para llevar a cabo tareas fundamentales de manera eficiente utilizando la línea de comandos. Es un libro práctico que se enfoca en la implementación efectiva, lo que lo convierte en un recurso valioso para aquellos que buscan mejorar sus habilidades prácticas en el ámbito de Data Science.
+<img align="left" width="200" height="262" src="https://image.bokus.com/images/9781492087915_200x_data-science-at-the-command-line_haftad"> Este libro, _Data Science at the Command Line_, me ha gustado siempre por su enfoque. No trata sobre metodologías en Data Science ni conceptos estadísticos profundos pero da herramientas, consejos y ejemplos concretos para llevar a cabo tareas fundamentales de manera eficiente utilizando la línea de comandos. Es un libro práctico que se enfoca en la implementación efectiva, lo que lo convierte en un recurso valioso para aquellos que buscan mejorar sus habilidades prácticas en el ámbito de Data Science.
 
 Este libro me ha ayudado mucho y es el que ha servido de inspiración para iniciar este repositorio que tiene como finalidad ser un espacio de aprendizaje dedicado a la intersección entre Data Science y el uso eficiente de programas mediante línea de comandos.
 
