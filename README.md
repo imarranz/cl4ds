@@ -175,6 +175,12 @@ Iré añadiendo recursos que haya ido encontrando mientras desarrollo los manual
 
   * [csvkit, a command-line tool for reporters](https://github.com/utdata/csvkit-nicar)
 
+### nbconvert
+
+  * [nbconvert: Convert Notebooks to other formats](https://nbconvert.readthedocs.io/en/latest/)
+  * [nbconvert en GitHub](https://github.com/jupyter/nbconvert)
+  * [Converting notebooks to other formats](https://ipython.org/ipython-doc/2/notebook/nbconvert.html)
+
 ## Contribución
 
 > [!IMPORTANT]
