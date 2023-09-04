@@ -43,7 +43,7 @@ La Ciencia de Datos ha transformado la manera en que abordamos la información y
 
 Este repositorio está destinado a la interacción y el crecimiento colaborativo. Sois libres de explorar, cuestionar y compartir vuestros conocimientos.
 
-Mi finalidad es generar manuales de `awk`, `sed`, `nbconvert`, `csvkit`, ... con explicaciones sencillas, recursos útiles y muchos ejemplos.
+Mi finalidad es generar manuales de `awk`, `sed`, `nbconvert`, `csvkit`, ... con explicaciones sencillas, recursos útiles y muchos ejemplos. Así como el ir descubriendo entre todos otras herramientas interesantes de línea de comando.
 
 ## Explorando el Repositorio CL4DS: Manuales Detallados para Herramientas de Data Science
 
