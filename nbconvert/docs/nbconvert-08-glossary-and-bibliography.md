@@ -4,7 +4,7 @@
 
 En esta sección de glosario, se proporciona una lista de términos y conceptos clave relacionados con `nbconvert` y la conversión de notebooks de Jupyter:
 
-### Términos y Conceptos Clave
+### Términos y conceptos clave
 
   1. **`nbconvert`**: La herramienta de conversión de notebooks de Jupyter que permite convertir notebooks a varios formatos, como Markdown, HTML, PDF, entre otros.
 
@@ -22,7 +22,7 @@ En esta sección de glosario, se proporciona una lista de términos y conceptos 
 
 En esta sección de bibliografía, se proporcionan referencias y enlaces útiles relacionados con `nbconvert` y la conversión de notebooks de Jupyter:
 
-### Referencias y Enlaces Útiles
+### Referencias y enlaces útiles
 
   1. Documentación oficial de `nbconvert`: [Documentación oficial de nbconvert](https://nbconvert.readthedocs.io/en/latest/)
 
