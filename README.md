@@ -1,4 +1,4 @@
-<h3 align="center">Una colección de listas, manuales, recursos, webs, software y herramientas CLI y más.</h3>
+<h3 align="center">Una colección de manuales, recursos, webs, software y herramientas CLI y más.</h3>
 
 <br>
 
@@ -7,7 +7,9 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
   </a>
   <a href="LICENSE.md">
-    <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg?longCache=true" alt="MIT License">
+    <img src="https://img.shields.io/badge/License-MIT-red.svg?longCache=true" alt="MIT License">
+  </a>
+   <a href="https://github.com/imarranz/cl4ds"><img src="https://img.shields.io/github/stars/imarranz/cl4ds" alt="Stars"/></a>
   </a>
 </p>
 
@@ -107,6 +109,9 @@ En este manual, exploraremos los fundamentos de AWK, desde los conceptos básico
 
 nbconvert es una poderosa herramienta diseñada para convertir notebooks de Jupyter en una variedad de formatos de salida, permitiendo a los usuarios compartir y publicar su trabajo de manera efectiva. Los notebooks de Jupyter son documentos interactivos que combinan texto enriquecido, código, visualizaciones y resultados en un único entorno. Sin embargo, para compartir estos documentos con audiencias diversas, es esencial convertirlos en formatos más accesibles y legibles, como HTML, PDF, Markdown u otros.
 
+> [!NOTE]
+> Si deseas obtener más información sobre nbconvert, puedes consultar la [documentación oficial de nbconvert](https://nbconvert.readthedocs.io/en/latest/) o entrar en el [repositorio de GitHub de nbconvert](https://github.com/jupyter/nbconvert)
+
 1. Introducción
    - ¿Qué es nbconvert?
    - Ventajas de usar nbconvert
@@ -145,11 +150,6 @@ nbconvert es una poderosa herramienta diseñada para convertir notebooks de Jupy
 
 9. Bibliografía
    - Referencias y enlaces útiles
-
-
-> [!NOTE]
-> Si deseas obtener más información sobre nbconvert, puedes consultar la [documentación oficial de nbconvert](https://nbconvert.readthedocs.io/en/latest/) o entrar en el [repositorio de GitHub de nbconvert](https://github.com/jupyter/nbconvert)
-
 
 ### Introducción a csvkit
 
