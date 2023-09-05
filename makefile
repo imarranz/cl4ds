@@ -59,6 +59,36 @@ awk-pdf:
 		--metadata=title:"AWK Manual" \
 		--metadata=author:"Ibon Martínez-Arranz"
 
+nbconvert-pdf:
+	pandoc nbconvert/docs/nbconvert-01-introduction.md \
+		nbconvert/docs/nbconvert-02-instalation.md \
+		nbconvert/docs/nbconvert-03-basic-use.md \
+		nbconvert/docs/nbconvert-04-advanced-options.md \
+		nbconvert/docs/nbconvert-05-integration-with-jupyter.md \
+		nbconvert/docs/nbconvert-06-bug-fix.md \
+		nbconvert/docs/nbconvert-07-appendix.md \
+		nbconvert/docs/nbconvert-08-glossary-and-bibliography.md \
+		--output nbconvert-manual.pdf \
+		--from markdown \
+		--template "./templates/manual-template.tex" \
+		--toc \
+		--variable book=True \
+		--top-level-division="chapter" \
+		--listings \
+		--variable titlepage=True \
+		--variable titlepage-color="EEEEEE" \
+		--variable titlepage-rule-height=8 \
+		--variable titlepage-background="./figures/titlepage-background-template.pdf" \
+		--variable page-background="./figures/page-background-template.pdf" \
+		--variable page-background-opacity=0.8 \
+		--variable footer-right="Page \thepage" \
+		--variable linkcolor=primaryowlorange \
+		--variable urlcolor=primaryowlorange \
+		--variable institute="Data Science Manager at Rubió Metabolomics" \
+		--filter pandoc-latex-environment \
+		--metadata=title:"nbconvert Manual" \
+		--metadata=author:"Ibon Martínez-Arranz"
+
 # https://github.com/Wandmalfarbe/pandoc-latex-template
 # https://pypi.org/project/pandoc-latex-environment/
 # https://pandoc-latex-tip.readthedocs.io/en/latest/index.html
