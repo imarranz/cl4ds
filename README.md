@@ -116,6 +116,11 @@ nbconvert es una poderosa herramienta diseñada para convertir notebooks de Jupy
 > [!NOTE]
 > Si deseas obtener más información sobre nbconvert, puedes consultar la [documentación oficial de nbconvert](https://nbconvert.readthedocs.io/en/latest/) o entrar en el [repositorio de GitHub de nbconvert](https://github.com/jupyter/nbconvert)
 
+
+<details>
+<summary><b>Esquema para el Manual de nbconvert</b></summary>
+<br>
+
 1. Introducción
    - ¿Qué es nbconvert?
    - Ventajas de usar nbconvert
@@ -155,6 +160,8 @@ nbconvert es una poderosa herramienta diseñada para convertir notebooks de Jupy
 9. Bibliografía
    - Referencias y enlaces útiles
 
+</details>
+
 ### Introducción a csvkit
 
 csvkit es una suite de herramientas diseñada específicamente para trabajar con archivos CSV (valores separados por comas) de manera eficiente. Manipular datos en formato CSV puede ser complicado, especialmente cuando se trata de limpiar, filtrar y transformar grandes conjuntos de datos. csvkit simplifica este proceso al proporcionar un conjunto de comandos de línea de comandos que permiten realizar tareas comunes en archivos CSV de manera sencilla y efectiva.
@@ -164,7 +171,9 @@ En este manual, exploraremos las capacidades de csvkit para realizar operaciones
 > [!NOTE]
 > Si deseas obtener más información sobre csvkit, puedes consultar el [proyecto oficial de csvkit en GitHub](https://github.com/wireservice/csvkit) o leer la [documentación oficial de csvkit](https://csvkit.readthedocs.io/en/latest/)
 
-#### Esquema para el Manual de csvkit:
+<details>
+<summary><b>Esquema para el Manual de csvkit</b></summary>
+<br>
 
 1. Introducción a csvkit
    - ¿Qué es csvkit y por qué es útil?
@@ -209,6 +218,8 @@ En este manual, exploraremos las capacidades de csvkit para realizar operaciones
    - Enlaces a la documentación oficial de csvkit.
    - Tutoriales y ejemplos adicionales.
    - Comunidad y soporte.
+
+</details>
 
 ## Más Información
 
