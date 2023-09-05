@@ -65,8 +65,8 @@ En este manual, exploraremos los fundamentos de AWK, desde los conceptos básico
 > Para obtener más información sobre AWK, puedes visitar el [proyecto oficial de AWK en GitHub](https://github.com/onetrueawk/awk).
 
 <details>
-
-#### Esquema para el Manual de AWK:
+<summary><b>Esquema para el Manual de AWK</b></summary>
+<br>
 
 1. Introducción a AWK
    - ¿Qué es AWK y por qué es importante?
