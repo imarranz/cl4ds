@@ -103,9 +103,57 @@ En este manual, exploraremos los fundamentos de AWK, desde los conceptos básico
    - Estilo de codificación y legibilidad.
    - Recursos adicionales para aprender AWK.
 
+### Introducción a nbconvert
+
+nbconvert es una poderosa herramienta diseñada para convertir notebooks de Jupyter en una variedad de formatos de salida, permitiendo a los usuarios compartir y publicar su trabajo de manera efectiva. Los notebooks de Jupyter son documentos interactivos que combinan texto enriquecido, código, visualizaciones y resultados en un único entorno. Sin embargo, para compartir estos documentos con audiencias diversas, es esencial convertirlos en formatos más accesibles y legibles, como HTML, PDF, Markdown u otros.
+
+1. Introducción
+   - ¿Qué es nbconvert?
+   - Ventajas de usar nbconvert
+   - Requisitos previos
+
+2. Instalación
+   - Instalación de nbconvert
+   - Comprobación de la instalación
+
+3. Uso Básico
+   - Conversión de un notebook a otro formato
+   - Opciones de línea de comandos comunes
+   - Conversión por lotes
+
+4. Opciones Avanzadas
+   - Uso de tags
+   - Personalización de las plantillas
+   - Manipulación de metadatos
+   - Uso de preprocesadores y postprocesadores
+
+5. Integración con Jupyter
+   - Uso de nbconvert desde Jupyter Notebook
+   - Exportación desde Jupyter Lab
+
+6. Solución de Problemas
+   - Mensajes de error comunes y soluciones
+   - Recursos para obtener ayuda adicional
+
+7. Apéndices
+   - Referencia de comandos y opciones
+   - Ejemplos de uso avanzado
+   - Casos de uso específicos
+
+8. Glosario
+   - Términos y conceptos clave
+
+9. Bibliografía
+   - Referencias y enlaces útiles
+
+
+> [!NOTE]
+> Si deseas obtener más información sobre nbconvert, puedes consultar la [documentación oficial de nbconvert](https://nbconvert.readthedocs.io/en/latest/) o entrar en el [repositorio de GitHub de nbconvert](https://github.com/jupyter/nbconvert)
+
+
 ### Introducción a csvkit
 
-csvkit es una suite de herramientas diseñada específicamente para trabajar con archivos CSV (valores separados por comas) de manera eficiente. Manipular datos en formato CSV puede ser complicado, especialmente cuando se trata de limpiar, filtrar y transformar grandes conjuntos de datos. Csvkit simplifica este proceso al proporcionar un conjunto de comandos de línea de comandos que permiten realizar tareas comunes en archivos CSV de manera sencilla y efectiva.
+csvkit es una suite de herramientas diseñada específicamente para trabajar con archivos CSV (valores separados por comas) de manera eficiente. Manipular datos en formato CSV puede ser complicado, especialmente cuando se trata de limpiar, filtrar y transformar grandes conjuntos de datos. csvkit simplifica este proceso al proporcionar un conjunto de comandos de línea de comandos que permiten realizar tareas comunes en archivos CSV de manera sencilla y efectiva.
 
 En este manual, exploraremos las capacidades de csvkit para realizar operaciones como la conversión entre formatos CSV y otros formatos de datos, la unión de archivos CSV, la selección y filtrado de columnas, y mucho más. Aprenderemos cómo aprovechar al máximo estas herramientas para agilizar el flujo de trabajo con datos tabulares.
 
