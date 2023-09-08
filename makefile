@@ -1,30 +1,45 @@
 
-all: awk-pdf csvkit-pdf
+# Uso de Variables
+# https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_6.html
+
+TEMPLATE = "./templates/manual-template.tex"
+TOP_LEVEL_DIVISION = "chapter"
+TITLEPAGE_COLOR = "EEEEEE"
+TITLEPAGE_RULE_HEIGHT = 8
+TITLEPAGE_BACKGROUND = "./figures/titlepage-background-template.pdf"
+PAGE_BACKGROUND = "./figures/page-background-template.pdf"
+PAGE_BACKGROUND_OPACITY = 0.8
+FOOTER_RIGHT = "Page \thepage"
+INSTITUTE = "Data Science Manager at Rubió Metabolomics"
+AUTHOR = "Ibon Martínez-Arranz"
+
+all: awk-pdf csvkit-pdf jq-pdf nbconvert-pdf
 
 jq-pdf:
 	pandoc jq/docs/jq-01-introduction-to-jq.md \
 		jq/docs/jq-02-instalation.md \
-		jq/docs/jq-03-basics.md \
+		jq/docs/jq-03-basic-concepts.md \
+		jq/docs/jq-04-basic-use.md \
 		--output jq-manual.pdf \
 		--from markdown \
-		--template "./templates/manual-template.tex" \
+		--template $(TEMPLATE) \
 		--toc \
 		--variable book=True \
-		--top-level-division="chapter" \
+		--top-level-division $(TOP_LEVEL_DIVISION) \
 		--listings \
 		--variable titlepage=True \
-		--variable titlepage-color="EEEEEE" \
-		--variable titlepage-rule-height=8 \
-		--variable titlepage-background="./figures/titlepage-background-template.pdf" \
-		--variable page-background="./figures/page-background-template.pdf" \
-		--variable page-background-opacity=0.8 \
-		--variable footer-right="Page \thepage" \
+		--variable titlepage-color=$(TITLEPAGE_COLOR) \
+		--variable titlepage-rule-height=$(TITLEPAGE_RULE_HEIGHT) \
+		--variable titlepage-background=$(TITLEPAGE_BACKGROUND) \
+		--variable page-background=$(PAGE_BACKGROUND) \
+		--variable page-background-opacity=$(PAGE_BACKGROUND_OPACITY) \
+		--variable footer-right=$(FOOTER_RIGHT) \
 		--variable linkcolor=primaryowlorange \
 		--variable urlcolor=primaryowlorange \
-		--variable institute="Data Science Manager at Rubió Metabolomics" \
+		--variable institute=$(INSTITUTE) \
 		--filter pandoc-latex-environment \
 		--metadata=title:"jq Manual" \
-		--metadata=author:"Ibon Martínez-Arranz"
+		--metadata=author:$(AUTHOR)
 
 csvkit-pdf:
 	pandoc csvkit/docs/csvkit-01-introduction-to-csvkit.md \
@@ -34,24 +49,24 @@ csvkit-pdf:
 		csvkit/docs/csvkit-05-data-cleaning-and-transformation.md \
 		--output csvkit-manual.pdf \
 		--from markdown \
-		--template "./templates/manual-template.tex" \
+		--template $(TEMPLATE) \
 		--toc \
 		--variable book=True \
-		--top-level-division="chapter" \
+		--top-level-division $(TOP_LEVEL_DIVISION) \
 		--listings \
 		--variable titlepage=True \
-		--variable titlepage-color="EEEEEE" \
-		--variable titlepage-rule-height=8 \
-		--variable titlepage-background="./figures/titlepage-background-template.pdf" \
-		--variable page-background="./figures/page-background-template.pdf" \
-		--variable page-background-opacity=0.8 \
-		--variable footer-right="Page \thepage" \
+		--variable titlepage-color=$(TITLEPAGE_COLOR) \
+		--variable titlepage-rule-height=$(TITLEPAGE_RULE_HEIGHT) \
+		--variable titlepage-background=$(TITLEPAGE_BACKGROUND) \
+		--variable page-background=$(PAGE_BACKGROUND) \
+		--variable page-background-opacity=$(PAGE_BACKGROUND_OPACITY) \
+		--variable footer-right=$(FOOTER_RIGHT) \
 		--variable linkcolor=primaryowlorange \
 		--variable urlcolor=primaryowlorange \
-		--variable institute="Data Science Manager at Rubió Metabolomics" \
+		--variable institute=$(INSTITUTE) \
 		--filter pandoc-latex-environment \
 		--metadata=title:"csv-kit Manual" \
-		--metadata=author:"Ibon Martínez-Arranz"
+		--metadata=author:$(AUTHOR)
 
 awk-pdf:
 	pandoc awk/docs/awk-01-introduction-to-awk.md \
@@ -64,24 +79,24 @@ awk-pdf:
 		awk/docs/awk-08-resources-and-tips.md \
 		--output awk-manual.pdf \
 		--from markdown \
-		--template "./templates/manual-template.tex" \
+		--template $(TEMPLATE) \
 		--toc \
 		--variable book=True \
-		--top-level-division="chapter" \
+		--top-level-division $(TOP_LEVEL_DIVISION) \
 		--listings \
 		--variable titlepage=True \
-		--variable titlepage-color="EEEEEE" \
-		--variable titlepage-rule-height=8 \
-		--variable titlepage-background="./figures/titlepage-background-template.pdf" \
-		--variable page-background="./figures/page-background-template.pdf" \
-		--variable page-background-opacity=0.8 \
-		--variable footer-right="Page \thepage" \
+		--variable titlepage-color=$(TITLEPAGE_COLOR) \
+		--variable titlepage-rule-height=$(TITLEPAGE_RULE_HEIGHT) \
+		--variable titlepage-background=$(TITLEPAGE_BACKGROUND) \
+		--variable page-background=$(PAGE_BACKGROUND) \
+		--variable page-background-opacity=$(PAGE_BACKGROUND_OPACITY) \
+		--variable footer-right=$(FOOTER_RIGHT) \
 		--variable linkcolor=primaryowlorange \
 		--variable urlcolor=primaryowlorange \
-		--variable institute="Data Science Manager at Rubió Metabolomics" \
+		--variable institute=$(INSTITUTE) \
 		--filter pandoc-latex-environment \
 		--metadata=title:"AWK Manual" \
-		--metadata=author:"Ibon Martínez-Arranz"
+		--metadata=author:$(AUTHOR)
 
 nbconvert-pdf:
 	pandoc nbconvert/docs/nbconvert-01-introduction.md \
@@ -94,24 +109,24 @@ nbconvert-pdf:
 		nbconvert/docs/nbconvert-08-glossary-and-bibliography.md \
 		--output nbconvert-manual.pdf \
 		--from markdown \
-		--template "./templates/manual-template.tex" \
+		--template $(TEMPLATE) \
 		--toc \
 		--variable book=True \
-		--top-level-division="chapter" \
+		--top-level-division $(TOP_LEVEL_DIVISION) \
 		--listings \
 		--variable titlepage=True \
-		--variable titlepage-color="EEEEEE" \
-		--variable titlepage-rule-height=8 \
-		--variable titlepage-background="./figures/titlepage-background-template.pdf" \
-		--variable page-background="./figures/page-background-template.pdf" \
-		--variable page-background-opacity=0.8 \
-		--variable footer-right="Page \thepage" \
+		--variable titlepage-color=$(TITLEPAGE_COLOR) \
+		--variable titlepage-rule-height=$(TITLEPAGE_RULE_HEIGHT) \
+		--variable titlepage-background=$(TITLEPAGE_BACKGROUND) \
+		--variable page-background=$(PAGE_BACKGROUND) \
+		--variable page-background-opacity=$(PAGE_BACKGROUND_OPACITY) \
+		--variable footer-right=$(FOOTER_RIGHT) \
 		--variable linkcolor=primaryowlorange \
 		--variable urlcolor=primaryowlorange \
-		--variable institute="Data Science Manager at Rubió Metabolomics" \
+		--variable institute=$(INSTITUTE) \
 		--filter pandoc-latex-environment \
 		--metadata=title:"nbconvert Manual" \
-		--metadata=author:"Ibon Martínez-Arranz"
+		--metadata=author:$(AUTHOR)
 
 # https://github.com/Wandmalfarbe/pandoc-latex-template
 # https://pypi.org/project/pandoc-latex-environment/
