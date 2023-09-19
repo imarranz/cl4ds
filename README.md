@@ -1,6 +1,6 @@
 
 <p align="center">
-   <img src="figures/CL4DS.ong">
+   <img src="figures/CL4DS.png">
 </p>
 
 
