@@ -52,7 +52,7 @@ https://docs.github.com/es/get-started/writing-on-github/getting-started-with-wr
 
 ## Introducción
 
-<img align="left" width="200" height="262" src="https://image.bokus.com/images/9781492087915_200x_data-science-at-the-command-line_haftad"> Este libro, _Data Science at the Command Line_, me ha gustado siempre por su enfoque. No trata sobre metodologías en Data Science ni conceptos estadísticos profundos pero da herramientas, consejos y ejemplos concretos para llevar a cabo tareas fundamentales de manera eficiente utilizando la línea de comandos. Es un libro práctico que se enfoca en la implementación efectiva, lo que lo convierte en un recurso valioso para aquellos que buscan mejorar sus habilidades prácticas en el ámbito de Data Science.
+<img align="left" width="200" height="262" src="https://image.bokus.com/images/9781492087915_200x_data-science-at-the-command-line_haftad"> Este libro, _Data Science at the Command Line_, me ha gustado siempre por su enfoque. No trata sobre metodologías en Data Science ni conceptos estadísticos profundos pero ofrece herramientas, consejos y ejemplos concretos para llevar a cabo tareas fundamentales de manera eficiente utilizando la línea de comandos. Es un libro práctico que se enfoca en la implementación efectiva, lo que lo convierte en un recurso valioso para aquellos que buscan mejorar sus habilidades prácticas en el ámbito de Data Science.
 
 Este libro me ha ayudado mucho y es el que ha servido de inspiración para iniciar este repositorio que tiene como finalidad ser un espacio de aprendizaje dedicado a la intersección entre Data Science y el uso eficiente de programas mediante línea de comandos.
 
@@ -60,7 +60,7 @@ La Ciencia de Datos ha transformado la manera en que abordamos la información y
 
 Este repositorio está destinado a la interacción y el crecimiento colaborativo. Sois libres de explorar, cuestionar y compartir vuestros conocimientos.
 
-Mi finalidad es generar manuales de `awk`, `sed`, `nbconvert`, `csvkit`, ... con explicaciones sencillas, recursos útiles y muchos ejemplos. Así como el ir descubriendo entre todos otras herramientas interesantes de línea de comando.
+Mi finalidad es generar manuales de `awk`, `sed`, `nbconvert`, `csvkit`, ... con explicaciones sencillas, recursos útiles y muchos ejemplos. Así como el ir descubriendo entre todos otras herramientas interesantes de línea de comandos.
 
 ## Explorando el Repositorio CL4DS: Manuales Detallados para Herramientas de Data Science
 
