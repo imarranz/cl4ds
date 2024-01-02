@@ -9,7 +9,9 @@
 
 <br>
 
-<p align="center">
+**Version and Activity**
+
+<p align="left">
   <a href="https://github.com/imarranz/cl4ds/pulls">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
   </a>
@@ -20,19 +22,25 @@
   </a>
 </p>
 
-<p align="center">
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/imarranz/cl4ds)
+![GitHub Release Date](https://img.shields.io/github/release-date/imarranz/cl4ds)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/imarranz/cl4ds)
+![GitHub all releases](https://img.shields.io/github/downloads/imarranz/cl4ds/total)<br>
+
+**Analysis**
+
+![GitHub top language](https://img.shields.io/github/languages/top/imarranz/cl4ds)
+![GitHub language count](https://img.shields.io/github/languages/count/imarranz/cl4ds)<br>
+
+**Social Media**
+
+<p align="left">
   <a href="https://twitter.com/imarranz" target="_blank">
     <img src="https://img.shields.io/twitter/follow/imarranz.svg?logo=twitter">
   </a>
 </p>
-
-<!--
-<div align="center">
-  <sub>Creado por
-  <a href="https://twitter.com/imarranz">imarranz</a> and
-  <a href="https://github.com/imarranz/">imarranz</a>
-</div>
--->
 
 ****
 
